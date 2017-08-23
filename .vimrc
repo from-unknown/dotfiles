@@ -40,4 +40,7 @@ set noswapfile
 " シンタックスハイライト
 syntax on
 
+" 行番号表示
+set nu
+
 colorscheme koehler
