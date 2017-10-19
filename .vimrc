@@ -13,12 +13,14 @@ set hlsearch
 "---------------------------------------------------------------------------
 " 編集に関する設定:
 "
+" タブをスペースに展開
+set expandtab
 " タブの画面上での幅
-set tabstop=2
+set tabstop=4
 " 連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
-set softtabstop=2
+set softtabstop=4
 " 自動インデントでずれる幅
-set shiftwidth=2
+set shiftwidth=4
 " 自動的にインデントする (noautoindent:インデントしない)
 set autoindent
 " バックスペースでインデントや改行を削除できるようにする
